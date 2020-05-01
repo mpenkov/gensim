@@ -333,8 +333,8 @@ if PY2:
     #
     # https://www.scipy.org/scipylib/faq.html#python-version-support
     #
-    NUMPY_STR = 'numpy <= 1.16.1'
-    SCIPY_STR = 'scipy <= 1.2.3'
+    NUMPY_STR = 'numpy < 1.17'
+    SCIPY_STR = 'scipy < 1.3'
     SO_STR = 'smart_open >= 1.8.1, < 1.11'
 else:
     NUMPY_STR = 'numpy >= 1.11.3'
